@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4409436523045424830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4409436523045424824}
+  - component: {fileID: 4409436523045424825}
+  - component: {fileID: 5262594983679206423}
+  - component: {fileID: 1163590823}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4409436523045424824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4409436523045424830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 861.74866, y: 522.66266, z: -2163.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4409436523045424825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4409436523045424830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7730e34721a70ab4bba80e02133add3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mute: 0
+  volume: 1
+  sounds:
+  - name: Explosion
+    loop: 0
+    clip: {fileID: 8300000, guid: 7cbfe600d91aa2144961e44eb5ecea04, type: 3}
+    volume: 0.5
+    pitch: 0.8
+    source: {fileID: 0}
+  - name: LaserFire
+    loop: 0
+    clip: {fileID: 8300000, guid: 769cf06e582d92d49ae80b46df72ad17, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: MissileFire
+    loop: 0
+    clip: {fileID: 8300000, guid: 42c582c0605a68249a6591aa8a6cb45f, type: 3}
+    volume: 2
+    pitch: 1
+    source: {fileID: 0}
+--- !u!114 &5262594983679206423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4409436523045424830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e1d196054f2a94ab21513b198a61bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astroidsEnabled: 0
+  asteroidPrefab: {fileID: 5176757509578942034, guid: 33ec3d69d83472744abf0403bfac3196,
+    type: 3}
+  spawnFrequency: 0.75
+--- !u!114 &1163590823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4409436523045424830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7d4c72f1e5a6a4e824c47695d5d75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  automaticDialogue: 1
+  dialogue:
+    dialogue:
+    - 
